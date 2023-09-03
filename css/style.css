@@ -80,7 +80,7 @@ main {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 .items img {
   width: 200px;
@@ -113,3 +113,23 @@ main {
   font-weight: 700;
 }
 /* Main End */
+
+/* Feature Items Start */
+.feature {
+  padding: 40px 0 80px 0;
+}
+.feature-items {
+  width: 915px;
+  padding: 60px 40px;
+  margin: 0 auto;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.feature-item img {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+/* Feature Items End */
