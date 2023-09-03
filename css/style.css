@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-header {
+.flower {
   background: #fceef1;
   padding: 80px 0 30px 0;
 }
@@ -116,7 +116,7 @@ main {
 
 /* Feature Items Start */
 .feature {
-  padding: 40px 0 80px 0;
+  padding: 20px 0 120px 0;
 }
 .feature-items {
   width: 915px;
@@ -133,3 +133,37 @@ main {
   height: 50px;
 }
 /* Feature Items End */
+
+/* Discount Start */
+.discount-header {
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.discount-image img {
+  width: 250px;
+  height: 320px;
+}
+.discount {
+  padding: 0 0 80px 0;
+}
+.discount-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social {
+  padding: 80px 0;
+}
+
+.ins-items {
+  gap: 20px;
+}
+/* Discount End */
+
+/* Flower Form start */
+
+/* Flower Form end */
