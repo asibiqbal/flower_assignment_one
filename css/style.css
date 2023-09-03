@@ -162,8 +162,73 @@ main {
 .ins-items {
   gap: 20px;
 }
+.ins-items img {
+  width: 265px;
+  height: 300px;
+}
+.discount-style {
+  color: #e55473;
+}
 /* Discount End */
 
 /* Flower Form start */
-
+.form-main {
+  padding: 40px 0 80px 0;
+}
+.form-heading {
+  margin-bottom: 10px;
+}
+.flower-form {
+  padding: 100px 0100px;
+  width: 920px;
+  background-image: url(../img/form.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.flower-form-content input {
+  width: 400px;
+  height: 60px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  margin-top: 20px;
+}
+.flower-form-content input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+}
+.form-btn {
+  margin-left: 10px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+}
 /* Flower Form end */
+
+/* Footer Start */
+footer {
+  padding: 80px 0;
+  background: #111010;
+}
+.flower-footer-content {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+.footer-color {
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-style-one {
+  color: #e55473;
+}
+.footer-style-two {
+  color: #fff;
+}
+/* Footer End */
